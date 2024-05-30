@@ -1,0 +1,99 @@
+.navbar{
+    height: 60px;
+    padding: 10px;
+    background-color: antiquewhite;
+    align-items: center;
+    /* width: 100%; */
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 15px; */
+    
+}
+li{
+    list-style: none;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(78, 78, 140);
+    margin-top: -10px;
+    margin-left: -100px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* justify-content: space-around; */
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-top: 10px;
+    
+}
+.cont{
+    display: flex;
+    
+   
+}
+.man{ 
+    border: 2px solid;
+    border-collapse: collapse;
+    /* grid-row: 1 / 3; */
+    /* grid-column: 3 / -1; */
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(78, 78, 140);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    border: 3px solid blue;
+    height: 400px;
+    margin-top: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.child{
+    border: solid 3px blue;
+    padding: 10px;
+    background-color: blue;
+    padding-right: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+/* .layer{
+    display: ;
+} */
+.rem{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+    margin-top: 30px;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.dan{
+    border: 3px solid blue;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    /* text-align: center; */
+    padding-top: 7px;
+    /* margin: 20px; */
+    /* justify-content: space-around; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
